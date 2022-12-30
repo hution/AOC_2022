@@ -6,7 +6,7 @@ scissors_Z = 3
 rock_X = 1 
 paper_Y = 2
 
-with open('./data.txt') as data_file:
+with open('./day2/data.txt') as data_file:
     lines = data_file.readlines()
     data = [entry.strip().split(' ') for entry in lines]
     #print(f"{data}")
